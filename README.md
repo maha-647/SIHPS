@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 # Date: 19/04/25
-## Register Number:212224220056
-## Name:Mahalaksshmi.S
+## Register Number: 212224220056
+## Name: Mahalaksshmi.S
 
 ## Problem Title 
 AI-Powered Smart Traffic Signal Management System
