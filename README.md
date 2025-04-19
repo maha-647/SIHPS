@@ -1,34 +1,38 @@
 # Smart India Hackathon Workshop
-# Date: 18:05:2024
-## Register Number:212223110033
-## Name:OVIYA P
+# Date: 19/04/25
+## Register Number:212224220056
+## Name:Mahalaksshmi.S
 
 ## Problem Title 
+AI-Powered Smart Traffic Signal Management System
 
 
-E-Waste Facility Locator
+
 ## Problem Description
-Website that tells you the location of the nearest e-waste collection and recycling facility. Offers educational pop-ups on the harmful components of your e-waste and their effects on the environment and human health if not disposed correctly. There could be an option to input the model of your old device and earn credit points relative to the amount of precious metals recovered from the device if disposed correctly.
+An intelligent traffic management system that uses AI/ML algorithms to optimize traffic signal timings in real-time based on vehicle density, traffic flow data, and emergency vehicle detection. The system leverages computer vision and sensor inputs to reduce congestion, prioritize emergency vehicles, and improve overall traffic efficiency, especially in urban areas
 ## Problem Creater's Organization
-Ministry of Environment
+Ministry of Road Transport and Highways
+
 
 ## Idea
-1.Nearest E-Waste Facility Locator:
-Use Geocoding AI to find nearby e-waste facilities based on the user's current location.
-Implement image recognition to categorize e-waste when users upload photos, suggesting the appropriate recycling facility.
+1. Real-Time Traffic Density Monitoring:
+Use live video feeds and/or sensors to analyze traffic density at intersections. AI algorithms process the data to dynamically adjust signal timings and reduce congestion.
 
-2.Virtual Assistant:
-Offer a virtual assistant that provides guidance on proper e-waste disposal methods and data wiping techniques for devices with sensitive information.
 
-3.Educational Pop-ups:
-Display educational pop-ups to raise awareness about the harmful effects of e-waste on the environment and human health.
+2. Emergency Vehicle Detection and Prioritization:
+Implement audio and visual recognition to detect sirens and flashing lights of emergency vehicles (ambulances, fire trucks, police), automatically adjusting signals to give them the right of way.
 
-4.Reward Points System:
-Introduce a reward points system where users earn points for each e-waste disposal, encouraging participation in recycling programs.
 
-5.Real-time Analytics Dashboard:
-Provide e-waste facilities with a dashboard showcasing real-time analytics and insights, including recycling rates and energy savings, to help users understand their impact on the environment.
+3. Interactive Traffic Dashboard:
+Provide city officials and traffic operators with a web-based dashboard to monitor real-time traffic conditions, signal patterns, and incident alerts.
 
+
+4. User Notifications (Optional):
+A mobile/web interface that alerts users about optimal routes, signal wait times, and real-time congestion levels.
+
+
+5. Data Logging and Analytics:
+Track and analyze historical data to identify traffic trends, peak hours, and propose long-term infrastructure improvements.
 
 
 
@@ -37,10 +41,14 @@ Provide e-waste facilities with a dashboard showcasing real-time analytics and i
 
 
 ## Proposed Solution / Architecture Diagram
-![alt text](image-1.png)
+
+![Screenshot 2025-04-19 132629](https://github.com/user-attachments/assets/9c3c8f01-46ba-4f14-a098-703e40f88dd8)
+
 
 ## Use Cases
-![alt text](10-2.jpg)
+
+![Screenshot 2025-04-19 133507](https://github.com/user-attachments/assets/6eb56487-3050-46d7-b37c-ae0664f1815e)
+
 
 ## Technology Stack
 React.js
@@ -49,7 +57,11 @@ Node.js
 
 PostgreSQL
 
-Google maps
+
+Python (TensorFlow or PyTorch)
+
+
+Google maps API
 
 Firebox Authenticator
 
@@ -57,9 +69,11 @@ Git , Postman or Insomnia
 
 ## Dependencies
 
-Mapping service- 10 days
+Camera and Sensor Setup: 10 days
 
-Data collection- 10 days
+ML Model Training & Integration: 10 days
 
-budget- rs.50,000
+Budget: Rs. 60,000
+
+
 
